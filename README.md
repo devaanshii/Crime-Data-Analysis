@@ -56,12 +56,15 @@ The project follows a structured data science workflow:
 - **Development Environment**: Jupyter Notebook
 
 ## 📁 Folder Structure
+
+```
 ├── data/                # Raw and processed datasets
 ├── notebooks/           # Jupyter notebooks for analysis
 ├── src/                 # Scripts for preprocessing and modeling
 ├── outputs/             # Visualizations, reports, and models
 ├── README.md            # Project overview
 └── requirements.txt     # Python dependencies
+```
 
 ## 🚀 How to Run
 
@@ -69,21 +72,28 @@ The project follows a structured data science workflow:
    ```bash
    git clone https://github.com/your-username/crime-data-analysis.git
    cd crime-data-analysis
+   ```
 
-Install dependencies:
-bashpip install -r requirements.txt
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Run the analysis:
-bashjupyter notebook
+3. **Run the analysis**:
+   ```bash
+   jupyter notebook
+   ```
 
+## 📌 Goals
 
-📌 Goals
+- Uncover spatial and temporal crime trends
+- Predict future hotspots
+- Support law enforcement and policymaking
 
-Uncover spatial and temporal crime trends
-Predict future hotspots
-Support law enforcement and policymaking
+## 🤝 Contributing
 
-🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
-📜 License
+
+## 📜 License
+
 This project is licensed under the MIT License.
